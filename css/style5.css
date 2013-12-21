@@ -7,9 +7,10 @@
 }
 
 body  {
-	background-image: url('../images/image1.jpg');
+	background-image: url('../images/image2.jpg');
 	 background-repeat:no-repeat;
 	 background-size:cover;
+	 color:white;
 }
 .container {
 	padding: 40px;
@@ -17,18 +18,18 @@ body  {
 h1
 {
 	font-family: 'Short Stack', cursive;
-	text-shadow: 2px 2px black;
+	text-shadow: 1px 1px rgb(35,41,39);
 
 }
 ul,ol{
 	font-size: 18px;
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px rgb(35,41,39);
+
 
 }
 h4,h5,h6,p,a
 {
 	font-family: 'Open Sans', sans-serif;
-	text-shadow: 2px 2px black;
 
 }
 p{
