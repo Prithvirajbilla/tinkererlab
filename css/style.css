@@ -5,24 +5,26 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-body  {
+/*.bt-menu-trigger span
+{
+	color: rgb(90, 83, 80);
+}
+*/body  {
 	font-family: 'Roboto', sans-serif;
-	 background: rgb(238, 238, 238);
-	 color:black;
+	 background-color:black;
+	 color:rgb(90, 83, 80);
 }
 .container {
 	padding: 40px;
 }
 h1
 {
+	color:  rgb(237, 129, 81);
 	font-family: 'Fascinate Inline',cursive;
-	text-shadow: 1px 1px rgb(35,41,39);
 
 }
 ul,ol{
 	font-size: 18px;
-	text-shadow: 1px 1px rgb(35,41,39);
 
 
 }
