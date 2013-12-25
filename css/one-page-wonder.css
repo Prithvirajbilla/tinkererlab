@@ -2,8 +2,17 @@ body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 	color:	#5A5350;
 	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
 }
-
+h1,h2,h3,h4,h5,h6,p
+{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+.heading
+{
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;
+}
 .header-image {
 	background: url(../images/image1.jpg);/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
 	background-size: cover;
@@ -12,6 +21,15 @@ body {
 	display: block;
 	width: 100%;
 	text-align: center;
+}
+.navbar-nav > li > a
+{
+	font-size: 20px;
+}
+.navbar-header > a
+{
+	font-size: 24px;
+	font-weight: bold;
 }
 .navbar-default {
     background-color: 	#ED8151;
@@ -88,7 +106,8 @@ body {
 	font-size: 80px;
 	background: #ffffff;
 	font-family: 'Pacifico', cursive;
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255,0);
+	text-shadow:1px 1px white ;
 }
 .headline > .container > h1>small {
 	font-size: 35px;
@@ -96,10 +115,12 @@ body {
 }
 
 .headline > .container > h2 {
-	font-size: 60px;
+	font-size: 50px;
 	background: #ffffff;
 	font-family: 'Pacifico', cursive;
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255,0);
+	text-shadow:1px 1px white ;
+
 }
 
 .featurette-divider {
