@@ -1,6 +1,7 @@
 body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 	color:	#5A5350;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 .header-image {
@@ -86,12 +87,18 @@ body {
 .headline > .container > h1 {
 	font-size: 80px;
 	background: #ffffff;
+	font-family: 'Pacifico', cursive;
 	background: rgba(255, 255, 255, 0.9);
+}
+.headline > .container > h1>small {
+	font-size: 35px;
+	font-family: 'Pacifico', cursive;
 }
 
 .headline > .container > h2 {
-	font-size: 77px;
+	font-size: 60px;
 	background: #ffffff;
+	font-family: 'Pacifico', cursive;
 	background: rgba(255, 255, 255, 0.9);
 }
 
