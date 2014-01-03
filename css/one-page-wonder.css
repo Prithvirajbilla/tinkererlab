@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6,p
 .heading
 {
 	font-size: 60px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Covered By Your Grace', cursive;
 }
 .header-image {
 	background: url(../images/image1.jpg);/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
