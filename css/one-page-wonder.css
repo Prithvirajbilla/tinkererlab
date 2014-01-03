@@ -31,68 +31,70 @@ h1,h2,h3,h4,h5,h6,p
 	font-size: 24px;
 	font-weight: bold;
 }
+
+
 .navbar-default {
-    background-color: 	#ED8151;
-    border-color: #e86a32;
+    background-color: #033649;
+    border-color: #031634;
 }
 .navbar-default .navbar-brand {
-    color: #FFFFFF;
+    color: #E8DDCB;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #ffbbbc;
+    color: #E8DDCB;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #FFFFFF;
+    color: #E8DDCB;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffbbbc;
+    color: #E8DDCB;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffbbbc;
-    background-color: #e86a32;
+    color: #E8DDCB;
+    background-color: #031634;
 }
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffbbbc;
-    background-color: #e86a32;
+    color: #E8DDCB;
+    background-color: #031634;
 }
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #FFFFFF;
-    border-bottom-color: #FFFFFF;
+    border-top-color: #E8DDCB;
+    border-bottom-color: #E8DDCB;
 }
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    border-top-color: #ffbbbc;
-    border-bottom-color: #ffbbbc;
+    border-top-color: #E8DDCB;
+    border-bottom-color: #E8DDCB;
 }
 .navbar-default .navbar-nav > .open > a .caret, 
 .navbar-default .navbar-nav > .open > a:hover .caret, 
 .navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: #ffbbbc;
-    border-bottom-color: #ffbbbc;
+    border-top-color: #E8DDCB;
+    border-bottom-color: #E8DDCB;
 }
 .navbar-default .navbar-toggle {
-    border-color: #e86a32;
+    border-color: #031634;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #e86a32;
+    background-color: #031634;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFFFFF;
+    background-color: #E8DDCB;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #FFFFFF;
+        color: #E8DDCB;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #ffbbbc;
+        color: #E8DDCB;
     }
 }
 
