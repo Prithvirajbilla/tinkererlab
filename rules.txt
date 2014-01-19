@@ -1,0 +1,21 @@
+            <ol>
+                <li>Permission to use the lab will be granted only after a basic abstract of the work that the student wants to do in the lab is submitted. This abstract should include the following things:
+                <ul>
+                        <li>A brief description of the planned work</li>
+                        <li>The components required.</li>
+                        <li>The tentative Deadlines for project completion. </li>
+                        <li>Add technovation review team.</li>
+                </ul>
+                </li>
+                <li>
+                Students will update their abstracts and fill in all the necessary details(mentioned in the first point) using their Tech-IDs. </li>
+                <li>
+                This Tech-ID will help us in keeping a constant track of the success of the projects done in the lab and will also encourage the healthy habit of maintaining a proper documentation of the work done. </li>
+                <li>
+                A database of the students who end up spoiling some components inside the lab would be maintained by the technician.
+                </li>
+                <li>
+                At the end of every year interested students can file for the Tinkerer'ss of the year award. The work done by these students can then be scrutinized by a committee (consisting of Alumni,Profs,Student In-charge et cetera). This can be easily done with the help of the documentation and the abstracts that the students would have submitted on their Tech-ID.</li>
+                <li>
+                Disciplinary action will be taken against the students if they are found violating any of the rules.</li>
+            </ol>
