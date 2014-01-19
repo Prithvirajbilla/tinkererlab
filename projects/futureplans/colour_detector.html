@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tinkerers' lab">
+    <meta name="author" content="">
+
+    <title>Color Detector | Projects@TL</title>
+
+    <!-- Bootstrap core CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Fascinate+Inline|Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+    <link href="../../css/one-page-wonder.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://stab-iitb.org/tinkerers-lab/icon.ico">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.stab-iitb.org/tinkerers-lab">Tinkerers' Lab</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li ><a href="../../">About</a></li>
+            <!-- <li><a href="../../rules.html">Rules</a></li> --><li><a href="../../components.html">Components</a></li> 
+            <li class="active"><a href="../../projects.html">Projects</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+<!--             <li><a href="./contact.html">Contact</a></li>
+ -->          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="page-header">
+            <h1 class="heading">
+              Color Detector
+            </h1>
+          </div>
+        <div class="featurette" id="about">
+        <p style="font-family:Alegreya Sans;font-size:24px">Here is something interesting where you can implement what you learnt in line-follower! </p>
+        <p style="font-family:Alegreya Sans;font-size:30px">Components Required</p>
+        <ol>
+         <li>Red LED, Blue LED, Green LED or even a RGB LED would do</li>
+         <li>OPAMPS </li>
+         <li>Resistors </li>
+         <li>Capacitors </li>
+         <li>MOSFETS</li>
+         <li>Photodiodes or Photoresistors</li>
+        </ol>
+        <p style="font-family:Alegreya Sans;font-size:30px">Team Mentors</p>
+        <ol>
+         <li>Riddhish Bhalodia</li>
+        </ol>
+        <p style="font-family:Alegreya Sans;font-size:30px">Theory</p>
+         <p>The working principle behind the color detector is the fact that a Red object will reflect most of the Red light that falls on it, but will absorb the majority of blue and green light that falls on it. So, by determining the intensity of the reflected light that falls on the photodiode/photoresistor, we can get an intuition about the color of the object.</p>
+        <p>The electric circuitry would involve making a multiplexing circuit for the LEDs and the photodiodes. The circuit would also contain OPAMP based  comparators with proper calibration and MOSFETs as electronically controlled switches.</p>
+        <p style="font-family:Alegreya Sans;font-size:30px">Furthur developments</p>
+        <ul>
+        <li>Using Microcontrollers to calculate the exact Red, Green and Blue coefficients of any color</li>
+        <li>Interfacing a 16X2 LCD screen to display the color name and components</li>
+        <li>Make an aid for color blindness</li>
+        </ul>
+        
+
+
+        </div>
+        <br />
+        <a class="btn btn-primary btn-lg" href="http://techid.stab-iitb.org/events/individual/4/" target="_blank"> Register for this Project </a>
+          <a class="btn btn-primary btn-lg" href="http://www.stab-iitb.org/tinkerers-lab/projects.html"> Back to Projects </a>
+        <hr class="featurette-divider">
+          <p> Login to your Tech ID @ http://techid.stab-iitb.org to register your project </p>
+          <a class="btn btn-primary btn-lg" href="http://techid.stab-iitb.org" target="_blank"> Click here </a>
+          </div>
+          </div>
+          
+        <br/>
+        <br/>
+        <br/>
+        
+
+        <!-- /END THE FEATURETTES -->
+      <hr>
+
+      <!-- FOOTER -->
+      <footer style="text-align:center">
+        <p>Copyright &copy; STAB 2013-14 IITB</p>
+      </footer>
+      <!-- /END OF FOOTER -->
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  
+  </body>
